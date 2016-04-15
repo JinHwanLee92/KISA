@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   get 'static_pages/home'
-  get 'static_pages/about'
-  get 'static_pages/help'
+  get 'static_pages/aboutkisa'
+  get 'static_pages/eboard'
+  get 'static_pages/events'
+  get 'static_pages/internjobOppertunity'
+  get 'static_pages/photos'
+  get 'static_pages/contact'
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
